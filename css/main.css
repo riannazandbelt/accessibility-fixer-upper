@@ -12,7 +12,7 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -82,11 +82,6 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
-}
-
-h3,
-.read {
-  text-decoration: underline;
 }
 
 .read {
