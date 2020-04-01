@@ -84,6 +84,15 @@ td {
   color: #fff;
 }
 
+h3,
+.read {
+  text-decoration: underline;
+}
+
+.read {
+  color: #113c00;
+}
+
 @media only screen and (min-width: 35em) {
 
   .about-content {
