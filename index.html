@@ -14,6 +14,7 @@
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#shrubs">Jump to shrubs</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
     <li><a href="#about">Jump to about</a></li>
     <li><a href="#news">Jump to news</a></li>
@@ -52,33 +53,35 @@
   </section>
 
   <main role="main" id="main" tabindex="0">
-    <div class="wrapper gutter-1-2">
-      <h2 class="push-0 color-brand-dark">Products</h2>
-      <p class="mega max-length not-centered">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
-      <ul class="grid list-group">
-        <li class="unit xs-1 s-1 m-1-2 l-1-3">
-          <img class="img-flex push" src="images/shrub-1.jpg" alt="A grassy shrub" aria-details="grassy-shrubs">
-          <div class="gutter-1-4" id="grassy-shrubs">
-            <h2 class="mega push-0 bold">Grassy shrubs</h2>
-            <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
-          </div>
-        </li>
-        <li class="unit xs-1 s-1 m-1-2 l-1-3">
-          <img class="img-flex push pad-t" src="images/shrub-2.jpg" alt="A shrub with laurels" aria-details="shrubs-with-laurels">
-          <div class="gutter-1-4" id="shrubs-with-laurels">
-            <h2 class="mega push-0 bold">Shrubs with laurels</h2>
-            <span>Shrubs with laurels havse pretty little flowers that bloom sometime during the summer. They’re nice.</span>
-          </div>
-        </li>
-        <li class="unit xs-1 s-1 m-1-2 l-1-3">
-          <img class="img-flex push pad-t" src="images/shrub-3.jpg" alt="A two level shrub" aria-details="two-level-shrub">
-          <div class="gutter-1-4 pad-b" id="two-level-shrub">
-            <h2 class="mega push-0 bold">Two-level shrubbery</h2>
-            <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <section id="shrubs" tabindex="0">
+      <div class="wrapper gutter-1-2">
+        <h2 class="push-0 color-brand-dark">Products</h2>
+        <p class="mega max-length not-centered">If you do not tell us where we can buy a shrubbery, my friend and I will say… we will say… “nee”.</p>
+        <ul class="grid list-group">
+          <li class="unit xs-1 s-1 m-1-2 l-1-3">
+            <img class="img-flex push" src="images/shrub-1.jpg" alt="A grassy shrub" aria-details="grassy-shrubs">
+            <div class="gutter-1-4" id="grassy-shrubs">
+              <h2 class="mega push-0 bold">Grassy shrubs</h2>
+              <span>Grassy shrubs are pretty much grass, but I group them together in clumps so they look kinda like shrubs.</span>
+            </div>
+          </li>
+          <li class="unit xs-1 s-1 m-1-2 l-1-3">
+            <img class="img-flex push pad-t" src="images/shrub-2.jpg" alt="A shrub with laurels" aria-details="shrubs-with-laurels">
+            <div class="gutter-1-4" id="shrubs-with-laurels">
+              <h2 class="mega push-0 bold">Shrubs with laurels</h2>
+              <span>Shrubs with laurels havse pretty little flowers that bloom sometime during the summer. They’re nice.</span>
+            </div>
+          </li>
+          <li class="unit xs-1 s-1 m-1-2 l-1-3">
+            <img class="img-flex push pad-t" src="images/shrub-3.jpg" alt="A two level shrub" aria-details="two-level-shrub">
+            <div class="gutter-1-4 pad-b" id="two-level-shrub">
+              <h2 class="mega push-0 bold">Two-level shrubbery</h2>
+              <span>Two level shrubbery is where I put two shrubs at different heights, usually with a little path running down the middle.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 
   <section class="prices pad-t pad-b">
@@ -152,10 +155,11 @@
         <div class="unit xs-1 s-1 m-1-2 l-1-3 push gutter-1-2">
           <p class="push-1-8">E-mail address</p>
           <label for="email"></label>
-          <input id="email" type="email" name="email">
+          <input id="email" type="email" name="email" required>
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-3 push gutter-1-2">
           <p class="push-1-8">Type of shrubbery</p>
+          <label for="shrub"></label>
           <select id="shrub">
             <option>Two-level shrubbery</option>
             <option>Small shrubbery</option>
