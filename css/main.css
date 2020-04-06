@@ -91,6 +91,22 @@ td {
   color: #113c00;
 }
 
+@media only screen and (min-width: 20em) {
+
+  .name {
+    padding-bottom: .05em;
+  }
+
+  .contact {
+    padding-bottom: 1.1em;
+  }
+
+  .footer {
+    padding-bottom: .7em;
+  }
+
+}
+
 @media only screen and (min-width: 35em) {
 
   .about-content {
